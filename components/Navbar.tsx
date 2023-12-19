@@ -1,7 +1,11 @@
 import React from "react";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <header className='w-full'>
+      <nav></nav>
+    </header>
+  );
 };
 
 export default Navbar;
